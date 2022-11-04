@@ -23,31 +23,29 @@ html {
 	background-size: 200% 400%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
+  overflow-y: scroll;
 }
 @media (max-width: 600px) {
   html {
     color: var(--gray);
     font-size: 60%;
-    background: linear-gradient(45deg, #03011a, #310961, #010048, #a2d523);
+    background: linear-gradiente(45deg, #03011a, #310961, #010048, #a2d523);
     background-size: 110% 250%;
-    animation: gradient 15s ease infinite;
-    height: 90;
-    @keyframes gradient {
-      5% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
+    animation: gradiente 12s ease infinite;
+    height: 70vh;
+  }
+  @keyframes gradiente {
+    10% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
     }
   }
   }
-
-  
-
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -59,6 +57,7 @@ html {
 		background-position: 0% 50%;
 	}
 }
+
 
 #wrapper-topo {
   min-height: 100vh;
