@@ -17,8 +17,5 @@ function update() {
   days = hours / 24;
   days = Math.round(days);
   document.contagemregressiva.days.value = 'Em apenas ' + days + ' dias';
-  document.contagemregressiva.hours.value = hours + ' Horas';
-  document.contagemregressiva.minutes.value = minutes +' Minutos';
-  document.contagemregressiva.seconds.value = seconds;
   ID = window.setTimeout("update();", 1000);
 }
