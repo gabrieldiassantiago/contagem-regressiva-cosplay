@@ -1,5 +1,5 @@
 var now = new Date();
-var theevent = new Date("Dec 05 2022 00:00:01");
+var theevent = new Date("Dec 04 2022 00:00:01");
 var seconds = (theevent - now) / 1000;
 var minutes = seconds / 60;
 var hours = minutes / 60;

@@ -288,14 +288,18 @@ footer .origin {
   color: var(--white);
 }
 .input-contagem {
-  padding: 10px;
+  padding: 10px 15px;
   border: 8px solid transparent;
-  border-image: linear-gradient(11deg, red , yellow);
+  border-image: linear-gradient(4deg, red , yellow);
   border-image-slice: 1;
   background-color: transparent;
   margin: 10px;
   color: white;
   font-size: 14px;
+  border-radius: 20px;
+}
+input {
+  border-radius: ;
 }
 
 .text-footer{
