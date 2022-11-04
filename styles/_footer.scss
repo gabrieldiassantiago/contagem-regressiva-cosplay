@@ -1,0 +1,25 @@
+footer .origin {
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.32rem;
+
+  text-align: center;
+  margin-bottom: 3rem;
+
+}
+
+.plei {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: #ffffff solid 1px;
+  font-size: 1.3rem;
+  margin: 3rem;
+  
+  a {
+    text-decoration: none;    
+    color: var(--white);
+  }
+}
