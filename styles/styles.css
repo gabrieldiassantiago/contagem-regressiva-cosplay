@@ -290,7 +290,9 @@ footer .origin {
 .input-contagem {
   padding: 10px 15px;
   border: 8px solid transparent;
-  border-image: linear-gradient(4deg, red , yellow);
+  border-image: linear-gradient(45deg, #EC4C34 , #FFBD2B,
+  #EBDE56, #57C754, #53A1EB
+  );
   border-image-slice: 1;
   background-color: transparent;
   margin: 10px;
