@@ -8,6 +8,13 @@ var days = hours / 24;
 ID = window.setTimeout("update();", 1000);
 input.style.display = 'block'
 
+if (now == "Dec 03 2022") {
+  document.contagemregressiva.days.value = 'Faltam poucas horas'
+  if (now <= "Dec 02 2022"  ){
+    document.contagemregressiva.days.value = document.contagemregressiva.days.value
+  }
+}
+
 function update() {
   now = new Date();
   seconds = (theevent - now) / 1000;
